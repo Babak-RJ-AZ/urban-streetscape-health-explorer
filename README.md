@@ -8,6 +8,13 @@
 
 
 
+### Live demonstration
+
+[Launch the interactive dashboard](https://urban-streetscape-health-explorer.streamlit.app/)
+
+![Urban Streetscape Health Explorer dashboard](docs/dashboard.png)
+
+
 This project explores how street-level imagery, geospatial analysis and vision-language models can support the assessment of urban environments. It provides an interactive dashboard for inspecting sampled street locations, comparing visual indicators and examining the evidence behind AI-generated classifications.
 
 
@@ -95,15 +102,10 @@ The workflow consists of five main stages:
 
 
 | Indicator | Classes |
-
 |---|---|
-
 | Greenery | Low, medium, high, unclear |
-
 | Pedestrian environment | Weak, moderate, strong, unclear |
-
 | Cycling infrastructure | Absent, present, unclear |
-
 | Motor-vehicle dominance | Low, medium, high, unclear |
 
 
@@ -161,15 +163,10 @@ The holdout annotations were reviewed before the final holdout inference and eva
 
 
 | Indicator | Original accuracy | Hybrid accuracy | Original macro-F1 | Hybrid macro-F1 |
-
 |---|---:|---:|---:|---:|
-
 | Greenery | 0.458 | 0.458 | 0.355 | 0.355 |
-
 | Pedestrian environment | 0.542 | 0.542 | 0.467 | 0.467 |
-
 | Cycling infrastructure | 0.333 | 0.625 | 0.333 | 0.605 |
-
 | Motor-vehicle dominance | 0.333 | 0.333 | 0.251 | 0.251 |
 
 
@@ -227,31 +224,18 @@ No API key is needed to run the dashboard.
 urban-streetscape-health-explorer/
 
 ├── data/
-
 │   ├── annotations/
-
 │   ├── processed/
-
 │   │   ├── perspective_views/
-
 │   │   └── streetscape_hybrid.geojson
-
 │   └── raw/
-
 ├── notebooks/
-
 ├── results/
-
 │   ├── evaluation/
-
 │   └── vlm/
-
 ├── web/
-
 │   └── app.py
-
 ├── requirements.txt
-
 └── README.md
 
 ```
