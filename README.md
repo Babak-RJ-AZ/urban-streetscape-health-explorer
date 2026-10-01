@@ -290,7 +290,7 @@ Basemap: © OpenStreetMap contributors.
 
 
 
-The exact imagery licence, redistribution conditions and required attribution will be confirmed before public deployment.
+Street-level imagery: © City of Amsterdam, Kernregistratie Panoramabeelden (https://data.overheid.nl/dataset/jtwywakh0dstkg), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Images have been reprojected, cropped and resized into corridor-facing perspective views. The City of Amsterdam does not endorse this project.
 
 
 

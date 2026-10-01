@@ -221,3 +221,10 @@ st.info(
     "in sampled images. They are not direct measurements of "
     "health outcomes, safety, or causal effects."
 )
+
+st.caption(
+    "Street imagery: © City of Amsterdam, "
+    "Kernregistratie Panoramabeelden (CC BY 4.0). "
+    "Images reprojected, cropped and resized. "
+    "Basemap: © OpenStreetMap contributors."
+)
