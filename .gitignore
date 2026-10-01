@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# Local datasets and generated imagery
+data/raw/
+
+# Temporary files
+*.log
+.DS_Store
