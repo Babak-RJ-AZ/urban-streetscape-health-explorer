@@ -43,14 +43,6 @@ The Streamlit dashboard allows users to:
 
 
 
-**Live demo:** To be added after deployment.
-
-
-
-**Dashboard screenshot:** To be added.
-
-
-
 ## Study area and dataset
 
 
